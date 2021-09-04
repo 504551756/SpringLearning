@@ -5,6 +5,10 @@ public class Student {
 	private String name;
 	private Integer age;
 
+	public Student() {
+		System.out.println("加载Student");
+	}
+
 	public Long getId() {
 		return id;
 	}
@@ -27,5 +31,14 @@ public class Student {
 
 	public void setAge(Integer age) {
 		this.age = age;
+	}
+
+	@Override
+	public String toString() {
+		return "Student{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				", age=" + age +
+				'}';
 	}
 }
