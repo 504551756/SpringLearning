@@ -1,4 +1,4 @@
-package com.hjj.spring.model;
+package com.hjj.model;
 
 public class Student {
 	private Long id;
@@ -7,6 +7,12 @@ public class Student {
 
 	public Student() {
 		System.out.println("加载Student");
+	}
+
+	public Student(Long id, String name, Integer age) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
 	}
 
 	public Long getId() {
