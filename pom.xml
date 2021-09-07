@@ -11,6 +11,9 @@
     <modules>
         <module>SpringIoc</module>
         <module>SpringJavaConfig</module>
+        <module>SpringAop</module>
+        <module>SpringAop2</module>
+        <module>springTransaction</module>
     </modules>
 
     <properties>
